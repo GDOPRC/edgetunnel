@@ -1435,10 +1435,10 @@ ${clash}
 ---------------------------------------------------------------
 ################################################################
 telegram 交流群 技术大佬~在线发牌!
-https://t.me/CMLiussss
+https://t.me/if1939
 ---------------------------------------------------------------
 github 项目地址 Star!Star!Star!!!
-https://github.com/cmliu/edgetunnel
+https://github.com/GDOPRC/edgetunnel
 ---------------------------------------------------------------
 ################################################################
 `;
@@ -1469,7 +1469,7 @@ https://github.com/cmliu/edgetunnel
 			fakeHostName = `${fakeHostName}.xyz`
 		}
 		console.log(`虚假HOST: ${fakeHostName}`);
-		let url = `${subProtocol}://${sub}/sub?host=${fakeHostName}&uuid=${fakeUserID}&edgetunnel=cmliu&proxyip=${RproxyIP}`;
+		let url = `${subProtocol}://${sub}/sub?host=${fakeHostName}&uuid=${fakeUserID}&edgetunnel=GDOPRC&proxyip=${RproxyIP}`;
 		let isBase64 = true;
 
 		if (!sub || sub == ""){
@@ -1521,7 +1521,7 @@ https://github.com/cmliu/edgetunnel
 			} else {
 				const response = await fetch(url ,{
 					headers: {
-						'User-Agent': `${UA} CF-Workers-edgetunnel/cmliu`
+						'User-Agent': `${UA} CF-Workers-edgetunnel/GDOPRC`
 					}});
 				content = await response.text();
 			}
@@ -1636,7 +1636,7 @@ async function getAddressesapi(api) {
 			method: 'get', 
 			headers: {
 				'Accept': 'text/html,application/xhtml+xml,application/xml;',
-				'User-Agent': 'CF-Workers-edgetunnel/cmliu'
+				'User-Agent': 'CF-Workers-edgetunnel/GDOPRC'
 			},
 			signal: controller.signal // 将AbortController的信号量添加到fetch请求中，以便于需要时可以取消请求
 		}).then(response => response.ok ? response.text() : Promise.reject())));
