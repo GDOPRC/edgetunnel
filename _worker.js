@@ -38,6 +38,8 @@ let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
 	/*
 	'Join.my.Telegram.channel.1939.to.unlock.more.premium.nodes.#加入我的频道t.me/if1939解锁更多优选节点',
+	'加入我的频道t.me/if1939解锁更多优选节点',
+	'www.visa.com:8443',
 	'visa.cn:443',
 	'www.visa.com:8443',
 	'cis.visa.com:2053',
@@ -58,6 +60,7 @@ let addressesapi = [];
 let addressesnotls = [
 	//当sub为空且域名带有"worker"字样时启用本地优选域名/优选IP，若不带端口号 noTLS默认端口为80，#号后为备注别名
 	/*
+	'加入我的频道t.me/if1939解锁更多优选节点',
 	'usa.visa.com',
 	'myanmar.visa.com:8080',
 	'www.visa.com.tw:8880',
@@ -1251,6 +1254,7 @@ function checkSUB(host) {
 	if ((!sub || sub == '') && (addresses.length + addressesapi.length + addressesnotls.length + addressesnotlsapi.length + addressescsv.length) == 0){
 		addresses = [
 			'Join.my.Telegram.channel.1939.to.unlock.more.premium.nodes.link3.cc/1939#加入我的频道t.me/if1939解锁更多优选节点',
+			'加入我的频道t.me/if1939解锁更多优选节点',
 			'visa.cn:443',
 			'www.visa.com:8443',
 			'cis.visa.com:2053',
@@ -1267,6 +1271,7 @@ function checkSUB(host) {
 			'[2606:4700::]#IPv6'
 		];
 		if (host.includes(".workers.dev")) addressesnotls = [
+			'加入我的频道t.me/if1939解锁更多优选节点',
 			'usa.visa.com:2095',
 			'myanmar.visa.com:8080',
 			'www.visa.com.tw:8880',
