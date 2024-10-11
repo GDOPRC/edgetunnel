@@ -1250,7 +1250,7 @@ async function proxyURL(proxyURL, url) {
 function checkSUB(host) {
 	if ((!sub || sub == '') && (addresses.length + addressesapi.length + addressesnotls.length + addressesnotlsapi.length + addressescsv.length) == 0){
 		addresses = [
-			'time.is#香港('t.me/if1939)',
+			'time.is#香港(t.me/if1939)',
 			'visa.cn:443#美国(☝️更多优先节点)',
 			'www.visa.com:8443#美国',
 			'cis.visa.com:2053#美国',
