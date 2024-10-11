@@ -40,7 +40,7 @@ let addresses = [
 	'Join.my.Telegram.channel.1939.to.unlock.more.premium.nodes.#更多优选节点t.me/if1939频道',
 	'更多优选节点t.me/if1939频道',
 	'www.visa.com:8443 #美国',
-	'cis.visa.com:2053 #美国',
+	'cis.visa.com:2053 '#美国,
 	'africa.visa.com:2083',
 	'www.visa.com.sg:2087',
 	'www.visaeurope.at:2096',
@@ -1251,9 +1251,9 @@ function checkSUB(host) {
 	if ((!sub || sub == '') && (addresses.length + addressesapi.length + addressesnotls.length + addressesnotlsapi.length + addressescsv.length) == 0){
 		addresses = [
 			'Join.my.Telegram.channel.1939.to.unlock.more.premium.nodes.#更多优选节点t.me/if1939频道',
-			'visa.cn:443',
-			'www.visa.com:8443',
-			'cis.visa.com:2053',
+			'visa.cn:443#美国',
+			'www.visa.com:8443'#美国,
+			'cis.visa.com:2053 #美国',
 			'africa.visa.com:2083',
 			'www.visa.com.sg:2087',
 			'www.visaeurope.at:2096',
