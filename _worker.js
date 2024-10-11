@@ -37,7 +37,7 @@ let go2Socks5s = [
 let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
 	/*
-	'Join.my.Telegram.channel.1939.to.unlock.more.premium.nodes.#加入我的频道t.me/if1939解锁更多优选节点',
+	'Join.my.Telegram.channel.1939.to.unlock.more.premium.nodes.#更多优选节点,加入t.me/if1939频道',
 	'更多优选节点,加入t.me/if1939频道',
 	'www.visa.com:8443',
 	'cis.visa.com:2053',
@@ -1250,7 +1250,7 @@ async function proxyURL(proxyURL, url) {
 function checkSUB(host) {
 	if ((!sub || sub == '') && (addresses.length + addressesapi.length + addressesnotls.length + addressesnotlsapi.length + addressescsv.length) == 0){
 		addresses = [
-			'Join.my.Telegram.channel.1939.to.unlock.more.premium.nodes.#加入我的频道t.me/if1939解锁更多优选节点',
+			'Join.my.Telegram.channel.1939.to.unlock.more.premium.nodes.#更多优选节点,加入t.me/if1939频道',
 			'visa.cn:443',
 			'www.visa.com:8443',
 			'cis.visa.com:2053',
