@@ -11,7 +11,7 @@ let proxyIP = '';// 小白勿动，该地址并不影响你的网速，这是给
 let sub = '';// 避免项目被滥用，现已取消内置订阅器
 let subconverter = '';// clash订阅转换后端，目前使用CM的订阅转换功能。自带虚假uuid和host订阅。
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"; //订阅配置文件
-let subProtocol = 'ProxyIP.Multacom.fxxk.dedyn.io';
+let subProtocol = 'https://ProxyIP.Multacom.fxxk.dedyn.io';
 // The user name and password do not contain special characters
 // Setting the address will ignore proxyIP
 // Example:  user:pass@host:port  or  host:port
