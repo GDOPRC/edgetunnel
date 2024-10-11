@@ -39,8 +39,8 @@ let addresses = [
 	/*
 	'Join.my.Telegram.channel.1939.to.unlock.more.premium.nodes.#更多优选节点t.me/if1939频道',
 	'更多优选节点t.me/if1939频道',
-	'www.visa.com:8443 #美国',
-	'cis.visa.com:2053 '#美国,
+	'www.visa.com:8443',
+	'cis.visa.com:2053',
 	'africa.visa.com:2083',
 	'www.visa.com.sg:2087',
 	'www.visaeurope.at:2096',
@@ -1252,19 +1252,19 @@ function checkSUB(host) {
 		addresses = [
 			'Join.my.Telegram.channel.1939.to.unlock.more.premium.nodes.#更多优选节点t.me/if1939频道',
 			'visa.cn:443#美国',
-			'www.visa.com:8443',
-			'cis.visa.com:2053',
-			'africa.visa.com:2083',
-			'www.visa.com.sg:2087',
-			'www.visaeurope.at:2096',
-			'www.visa.com.mt:8443',
-			'qa.visamiddleeast.com',
-			'time.is',
-			'www.wto.org:8443',
-			'chatgpt.com:2087',
-			'icook.hk',
+			'www.visa.com:8443#美国',
+			'cis.visa.com:2053#美国',
+			'africa.visa.com:2083#美国',
+			'www.visa.com.sg:2087#美国',
+			'www.visaeurope.at:2096#美国',
+			'www.visa.com.mt:8443#美国',
+			'qa.visamiddleeast.com#美国',
+			'time.is#香港',
+			'www.wto.org:8443#美国',
+			//'chatgpt.com:2087',
+			'icook.hk#美国',
 			//'104.17.0.0#IPv4',
-			'[2606:4700::]#IPv6'
+			//'[2606:4700::]#IPv6'
 		];
 		if (host.includes(".workers.dev")) addressesnotls = [
 			'usa.visa.com:2095',
