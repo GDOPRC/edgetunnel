@@ -39,8 +39,8 @@ let addresses = [
 	/*
 	'Join.my.Telegram.channel.1939.to.unlock.more.premium.nodes.#更多优选节点t.me/if1939频道',
 	'更多优选节点t.me/if1939频道',
-	'www.visa.com:8443',
-	'cis.visa.com:2053',
+	'www.visa.com:8443 #美国',
+	'cis.visa.com:2053 #美国',
 	'africa.visa.com:2083',
 	'www.visa.com.sg:2087',
 	'www.visaeurope.at:2096',
